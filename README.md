@@ -32,4 +32,4 @@ Usage: Printscreen.exe ["OutputFileName"]
 <br/>
 WebcamSnap: Take a picture from the webcam.
 <br/>
-Usage :WebcamSnap.exe ["OutputFileName"]
+Usage:cWebcamSnap.exe ["OutputFileName"]
