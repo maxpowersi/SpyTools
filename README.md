@@ -1,4 +1,4 @@
-# SpyTools 1.0
+# SpyTools v1.0
 SpyTools is a collection of little tools wirtten in C# .Net 2.0, usefull to spy a vectim. If you got remote access, with a RAT or meterpreter, you can upload this tools to the victim machine, and run them, or persist them using Porwersploit. It is distributed under the GNU GPLv3 license.
 ## List of tools
 ### EmailSender
